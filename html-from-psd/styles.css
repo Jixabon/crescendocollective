@@ -293,7 +293,7 @@ nav ul li:not(:last-child) {
   border: solid 50px white;
   border-right-color: transparent;
   border-left-color: transparent;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(1.01);
 }
 
 .insight-slider .insight-card .insight-img::before {
@@ -421,13 +421,13 @@ nav ul li:not(:last-child) {
 .event-slider .event-card .event-date::before {
   position: absolute;
   content: '';
-  border: solid 15px #c3c3c3;
+  border: solid 14px #c3c3c3;
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  transform: rotate(-45deg);
-  top: 5px;
-  left: -15px;
+  transform: rotate(-45deg) scale(1.01);
+  top: 6px;
+  left: -14px;
 }
 .event-slider .event-card .event-date .event-day {
   font-weight: bold;
@@ -466,7 +466,7 @@ nav ul li:not(:last-child) {
   border-right-color: transparent;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(1.01);
   left: -35px;
   top: 15px;
 }
@@ -674,7 +674,7 @@ footer .desktop-footer {
     color: white;
   }
   .event-slider .event-card .event-date::before {
-    border: solid 15px #3b4e96;
+    border: solid 14px #3b4e96;
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent;
